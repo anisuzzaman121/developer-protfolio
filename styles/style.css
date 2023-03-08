@@ -22,7 +22,7 @@ section{
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -175,4 +175,27 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles */
+.content .section-title{
+    text-align: left;
+}
+.content{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.content input[type="text"], input[type="email"], textarea{
+   margin-bottom: 24px;
+   border: 0;
+   width: 100%;
+   padding-left: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.content a{
+    text-decoration: none;
+    margin-left: 20px;
 }
